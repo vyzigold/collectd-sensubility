@@ -1,9 +1,11 @@
 module github.com/infrawatch/collectd-sensubility
 
-go 1.13
+go 1.25.9
+
+require github.com/infrawatch/apputils v0.0.0-20240430082726-ed39d5d5ed39
 
 require (
-	github.com/infrawatch/apputils v0.0.0-20240430082726-ed39d5d5ed39
-	github.com/kr/text v0.2.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+	github.com/Azure/go-amqp v1.0.5 // indirect
+	github.com/go-ini/ini v1.62.0 // indirect
+	github.com/streadway/amqp v1.0.0 // indirect
 )
